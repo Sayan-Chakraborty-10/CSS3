@@ -1,0 +1,46 @@
+body{
+    margin: 0;
+}
+h1{
+    text-align: center;
+    font-size: xx-large;
+    background-image: linear-gradient(red,darkgoldenrod,white);
+}
+.road{
+    display: flex;
+    background-color: grey;
+    transition: transform 2s;
+}
+.grass{
+    height: 500px;
+    background-color: darkgreen;
+}
+.road:hover .fa-car-side {
+    transform: translate(1400px);
+}
+.road:hover .fa-dog{
+    transform: translate(500px, 400px);
+}
+.road:hover .fa-cat{
+    transform: translate(350px, 300px); 
+}
+.fa-car-side{
+   font-size: 200px;
+   margin-left: 0px;
+   color: red;
+   transition: transform 3s ease-in;
+}
+.fa-dog{
+    font-size: 100px;
+    margin-left: 200px; 
+    padding-bottom: 80px;
+    color: darkgoldenrod;
+    transition: transform 2s ease-in ;
+}
+.fa-cat{
+    font-size: 100px;
+    margin-left: 200px; 
+    padding-top: 90px;
+    color: white;
+    transition: transform 2s ease-in;
+}

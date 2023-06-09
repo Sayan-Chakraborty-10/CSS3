@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS3-special-5</title>
+    <script src="https://kit.fontawesome.com/34ca047907.js" crossorigin="anonymous"></script>
+     <style>
+        @keyframes sliding {
+            0%{
+                background-color: grey;
+                left: 0;
+                top: 0;
+            }
+            25%{
+                 top: 580px;
+                 background-color:black ;
+                 transform:scale(2) rotate(90deg);
+            }
+            50%{
+                top: 0;
+                background-color: red;
+                transform: scale(1) rotate(180deg);
+            }
+            75%{
+                top: 580px;
+                background-color: blue;
+                transform:scale(2) rotate(360deg);
+            }
+            100%{
+                background-color:deeppink;
+                left: 800px;
+                top: 0;
+            }
+        }
+        h1{
+            text-align: center;
+            background-image: linear-gradient(red,blue,deeppink);
+        }
+        .div{
+            height: 700px;
+            width: 900px;
+        }
+        img{
+            font-size: 50px;
+            padding-top: 45px;
+            position: relative;
+            animation: sliding 5s ease-in-out infinite alternate;
+            animation-play-state: running;
+        }
+     </style>
+</head>
+<body>
+    <h1>CSS3-special Website 5</h1>
+    <div class="div"><img src="18069166501579606327-128.png" alt=""></div>
+</body>

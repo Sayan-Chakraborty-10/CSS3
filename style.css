@@ -1,0 +1,97 @@
+body{
+    margin: 0;
+}
+p{
+    font-size: 20px;
+}
+h1{
+    text-align: center;
+    font-size: xx-large;
+    color: indianred;
+    background-image: linear-gradient(red,blue);
+}
+h2{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.div{
+    display: flex;
+    margin-left: 10px;
+}
+.div1{
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+}
+.div2{
+    height: 100px;
+    width: 100px;
+    background-color: chartreuse;
+    visibility: hidden;
+}
+.div3{
+    height: 100px;
+    width: 100px;
+    background-color: crimson;
+    display: none;
+}
+.div4{
+    height: 100px;
+    width: 100px;
+    background-color: gold;
+}
+.div5{
+    height: 50px;
+    width: 200px;
+    border: 2px solid saddlebrown;
+}
+.over{
+    height: 500px;
+    width: 500px;
+    border: 10px solid royalblue;
+    border-radius: 5px;
+    overflow: hidden;
+    overflow: scroll;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    text-align: justify;
+    margin: 10px 10px 10px 10px;
+}
+.flow{
+    height: 500px;
+    width: 500px;
+    border: 10px solid lightseagreen;
+    border-radius: 5px;
+    overflow: hidden;
+    overflow: scroll;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    text-align: justify;
+    margin: 10px 10px 10px 10px;
+}
+.fa-download{
+    color: green;
+}
+.fa-image{
+    color: rgb(41, 49, 51);
+}
+.float1{
+    float: right;
+    min-height: 200px;
+    width: 200px;
+    margin: 10px 10px 10px 10px;
+    background-color: red;
+}
+#id1{
+    background-image: linear-gradient(red,blue,white,orange,green);
+}
+#id2{
+    background-image: linear-gradient(red,blue,white,orange,green);
+}
+#id3{
+    background-image: linear-gradient(red,blue,white,orange,green);
+}
+#id4{
+    background-image: linear-gradient(red,blue,white,orange,green);
+}

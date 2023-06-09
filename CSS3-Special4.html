@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS3-special-4</title>
+    <script src="https://kit.fontawesome.com/34ca047907.js" crossorigin="anonymous"></script>
+     <style>
+        @keyframes sliding {
+            0%{
+                color: grey;
+                left: 0;
+            }
+            25%{
+                color: red;
+            }
+            50%{
+                color: blue;
+            }
+            75%{
+                color: chocolate;
+            }
+            100%{
+                color: black;
+                left: 715px;
+                transform:scale(2);
+            }
+        }
+        body{
+            margin: 0;
+        }
+        h1{
+            background-image: linear-gradient(grey,white,black);
+            text-align: center;
+            color:brown
+        }
+        .div{
+            height: 650px;
+            width: 900px;
+            background-color: chartreuse;
+        }
+        .fa-republican{
+            font-size: 100px;
+            padding-top: 200px;
+            color: grey; 
+            position: relative;
+            animation: sliding 2s ease-in-out infinite alternate;
+            animation-play-state: running;
+        }
+     </style>
+</head>
+<body>
+    <h1>CSS3-special Website 4</h1>
+    <div class="div"><p class="p"><i class="fa-solid fa-republican fa-bounce fa-2xl"></i></p></div>
+</body>
